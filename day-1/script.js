@@ -12,7 +12,7 @@ function partOneA () {
   billNumber = Number(bill);
 
   // 3. calculate tip
-  tip = bill * .10;
+  tip = billNumber * .10;
 
   // 4. set the message
   messageParagraph.innerHTML = `Your bill is ${bill}. Your tip is ${tip} at 10%.`
@@ -46,7 +46,7 @@ function partTwoA () {
   // 2. convert bill to a number
   billNumber = Number(bill);
   // 3. calculate split bill
-  split = bill/3;
+  split = billNumber/3;
   // 4. set the message
   messageParagraph.innerHTML = `Your bill is ${bill}. You part of the bill is ${split} among three friends.`;
   
