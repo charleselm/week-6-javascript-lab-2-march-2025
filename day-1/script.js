@@ -1,3 +1,8 @@
+// Today we will learn about functions and variables.
+// We will exucute functions that use math and variables for pratical tasks.
+// We will also learn how to use functions to make our code more flexible and reusable.
+// We will start with concrete examples and more to more flexible ways of expressing logic in code.
+
 let messageParagraph = document.getElementById("messageParagraph");
 
 // Example tip calculator at 10%

@@ -1,3 +1,8 @@
+// In this lesson we will learn how to create arrays and add to them.
+// We will get used to the syntax of arrays and how insert data into them
+// as well as how to access the data using an index.
+// If you forget the syntax at first, don't worrry. This lab is designed to help you get enought practice to remember it.
+
 
 // Example
 // Create an array of 5 friends
@@ -113,3 +118,6 @@ function partFourB () {
 
 }
 
+// BONUS: Try to add your own button to the page that will accept user input to add to the page.
+// The key is to collect new input from the user without overwriting the existing data.
+// Be creative. What sort of data would be useful or fun to collect?

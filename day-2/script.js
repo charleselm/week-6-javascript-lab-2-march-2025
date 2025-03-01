@@ -1,3 +1,9 @@
+// Today we will learn how to use if statements.
+// These are a building blocks of programming.
+// They allow us to fork our code and make decisions based on the data we have.
+// Boolean (True/False) expressions are the fundamental building blocks of if statements.
+// Boolean statments can be easy to understand, but can also be very complex.
+// Over time you will learn how to write more complex boolean statements.
 
 // Example
 // Guess the number
@@ -136,3 +142,4 @@ function partFourB () {
 
 }
 
+// BONUS: Try and "prove" that you have all the options covered in the Rock Paper Scissors game. How many are there exactly? How are you certain of that? Write your answer as a comment.

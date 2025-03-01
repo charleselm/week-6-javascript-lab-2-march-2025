@@ -1,3 +1,10 @@
+// Day 4: Loops
+
+// In day three we learned how to create arrays and add to them.
+// Today we will learn how to loop through arrays.
+// We can save some time and reduce the lines of code we need to write with loops.
+// Feel free to go back to Day 3 and add compare the we did it there with the we are doing it today.
+
 
 // Example
 // for loop with alerts
@@ -138,3 +145,6 @@ function partFourB () {
 
 }
 
+// BONUS
+// Reimplement your idea from day 3 using loops, or think of a new idea.
+// EXTRA BONUS: Use an `if` statement and the JavaScript array method `includes` to check if the data entered is a duplicate. Do not add it if it is a duplicate.
