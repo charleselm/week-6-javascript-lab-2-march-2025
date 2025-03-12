@@ -33,11 +33,13 @@ function partOneB () {
   guessNumber = Number(guess);
 
   // 1. check if the number is equal to the answer
-
+  if (guessNumber === answer) {
     // 2. if it is, set the message for correct.
-
+    messageParagraph.innerHTML = `You guessed the number! It was ${answer}.`;
     // 3. if not, set the message for wrong guess.
-
+  } else {
+    messageParagraph.innerHTML = `You did not guess the number. Try again.`;
+  }
 }
 
 // Example
@@ -70,13 +72,16 @@ function partTwoB () {
   guessNumber = Number(guess);
 
   // 1. check if the number is too low.
-
+  if(guessNumber < answer) {
     // 2. if it is, set the message for too low.
-
+    messageParagraph.innerHTML = `Your guess is too low. Try again.`;
+  } else if (guessNumber > answer) {
     // 3. if not, set the message for too high.
-
+    messageParagraph.innerHTML = `Your guess is too high. Try again.`;
+  } else {
     // 4. if not, set the message for correct.
-
+    messageParagraph.innerHTML = `You guessed the number! It was ${answer}.`;
+  }
 }
 
 // Example
