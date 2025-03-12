@@ -110,15 +110,17 @@ function partThreeB () {
   let color;
   color = prompt("What color describes your mood today?");
   // 1. check for your first color
-
+  if(color === "orange") {
     // 2. give the message for this color
-
+    messageParagraph.innerHTML = `You must be having a good day!`;
   // 3. check for the next color
-
+  } else if(color === "purple") {
     // 4. give the message for the next color
-    
+    messageParagraph.innerHTML = `Are you feeling down?`;
+  } else {
   // 5. otherwise, ask for another color
-
+    messageParagraph.innerHTML = `Try another color.`;
+  }
 }
 
 // Example
@@ -144,7 +146,24 @@ function partFourA () {
 // Try to catch as many as you can.
 function partFourB () {
   alert("Try it!");
-
+  let playerOne, playerTwo;
+  playerOne = prompt("Player One, choose rock, paper, or scissors.");
+  playerTwo = prompt("Player Two, choose rock, paper, or scissors.");
+  if(playerOne === "rock" && playerTwo === "paper") {
+    messageParagraph.innerHTML = "Player Two wins!";
+  } else if (playerOne === "scissors" && playerTwo === "rock") {
+    messageParagraph.innerHTML = "Player Two wins!";
+  } else if (playerOne === "paper" && playerTwo === "scissors") {
+    messageParagraph.innerHTML = "Player Two wins!";
+  } else if (playerOne === "rock" && playerTwo === "scissors"){
+    messageParagraph.innerHTML = "Player One wins!";
+  } else if (playerOne === "scissors" && playerTwo === "paper") {
+    messageParagraph.innerHTML = "Player One wins!";
+  } else if (playerOne === "paper" && playerTwo === "rock") {
+    messageParagraph.innerHTML = "Player One wins!";
+  } else {
+    messageParagraph.innerHTML = "It's a tie!";
+  }
 }
 
 // BONUS: Try and "prove" that you have all the options covered in the Rock Paper Scissors game. How many are there exactly? How are you certain of that? Write your answer as a comment.
